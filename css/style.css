@@ -1,3 +1,41 @@
 body {
 	font-family: 'Lato', sans-serif;
 }
+div {
+	border-style: solid;
+	border-color: chocolate;
+	border-width: 1px;
+}
+.shell {
+	max-width: 600px;
+	height: auto;
+	border: 1px solid #efefef;
+}
+.title {
+	text-align: center;
+	width: 600px;
+}
+.enter-field {
+	float: left;
+	width: 594px;
+
+}
+/*.add-button {
+	float: left;
+	width: 90px;
+}*/
+.remove-x {
+	float: left;
+	width: 50px;
+	text-align: center;
+}
+.item {
+	float: left;
+	width: 500px;
+	text-align: left;
+}
+.check {
+	float: left;
+	width: 40px;
+	text-align: center;
+}
