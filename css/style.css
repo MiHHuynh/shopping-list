@@ -6,6 +6,9 @@ div {
 	border-color: chocolate;
 	border-width: 1px;*/
 }
+input {
+	border: 1px solid;
+}
 .item-row {
 	border-bottom-style: solid;
 	border-bottom-width: 1px;
@@ -23,10 +26,9 @@ div {
 	font-size: 2em;
 	margin-bottom: 15px;
 }
-.enter-field {
+div .enter-field {
 	float: left;
 	width: 594px;
-	height: 30px;
 	margin-bottom: 15px;
 
 }
@@ -34,6 +36,7 @@ div {
 	float: left;
 	width: 50px;
 	text-align: left;
+	color: red;
 }
 .item {
 	float: left;
@@ -49,20 +52,16 @@ div {
 }
 ::-webkit-input-placeholder {
    color: #CC3300;
-   font-size: 1.5em;
 }
 
 :-moz-placeholder { /* Firefox 18- */
    color: #CC3300;  
-   font-size: 1.5em;
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #CC3300;  
-   font-size: 1.5em;
+   color: #CC3300; 
 }
 
 :-ms-input-placeholder {  
-   color: #CC3300;  
-   font-size: 1.5em;
+   color: #CC3300;
 }
