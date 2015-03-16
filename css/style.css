@@ -1,33 +1,33 @@
-body {
+body, .shell, .title, .item {
 	font-family: 'Lato', sans-serif;
 }
 div {
-	border-style: solid;
+	/*border-style: solid;
 	border-color: chocolate;
-	border-width: 1px;
+	border-width: 1px;*/
 }
 .shell {
 	max-width: 600px;
 	height: auto;
-	border: 1px solid #efefef;
+	margin-right: auto;
+	margin-left: auto;
 }
 .title {
 	text-align: center;
 	width: 600px;
+	font-size: 2em;
+	margin-bottom: 15px;
 }
 .enter-field {
 	float: left;
 	width: 594px;
+	margin-bottom: 15px;
 
 }
-/*.add-button {
-	float: left;
-	width: 90px;
-}*/
 .remove-x {
 	float: left;
 	width: 50px;
-	text-align: center;
+	text-align: left;
 }
 .item {
 	float: left;
@@ -37,5 +37,5 @@ div {
 .check {
 	float: left;
 	width: 40px;
-	text-align: center;
+	text-align: right;
 }
