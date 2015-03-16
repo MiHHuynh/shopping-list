@@ -33,12 +33,18 @@ div .enter-field {
 	height: 30px;
 	width: 594px;
 	margin-bottom: 15px;
+	font-size: 1em;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	border-bottom-width: 2px;
 
 }
 .remove-x {
 	float: left;
 	width: 50px;
 	text-align: left;
+}
+.remove-x:hover{
 	color: red;
 }
 .item {
@@ -47,9 +53,13 @@ div .enter-field {
 	text-align: left;
 	padding-top: 5px;
 	font-size: 1em;
+	text-transform: uppercase;
 }
 .check {
 	float: left;
 	width: 40px;
 	text-align: right;
+}
+.check:hover{
+	color: green;
 }
