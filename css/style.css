@@ -26,8 +26,11 @@ input {
 	font-size: 2em;
 	margin-bottom: 15px;
 }
+input {
+	border-radius: 5px;
+}
 div .enter-field {
-	float: left;
+	height: 30px;
 	width: 594px;
 	margin-bottom: 15px;
 
@@ -49,19 +52,4 @@ div .enter-field {
 	float: left;
 	width: 40px;
 	text-align: right;
-}
-::-webkit-input-placeholder {
-   color: #CC3300;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   color: #CC3300;  
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   color: #CC3300; 
-}
-
-:-ms-input-placeholder {  
-   color: #CC3300;
 }
