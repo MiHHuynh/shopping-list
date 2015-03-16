@@ -2,9 +2,14 @@ body, .shell, .title, .item {
 	font-family: 'Lato', sans-serif;
 }
 div {
-	border-style: solid;
+/*	border-style: solid;
 	border-color: chocolate;
-	border-width: 1px;
+	border-width: 1px;*/
+}
+.item-row {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #efefef;
 }
 .shell {
 	max-width: 600px;
@@ -35,9 +40,29 @@ div {
 	width: 500px;
 	text-align: left;
 	padding-top: 5px;
+	font-size: 1em;
 }
 .check {
 	float: left;
 	width: 40px;
 	text-align: right;
+}
+::-webkit-input-placeholder {
+   color: #CC3300;
+   font-size: 1.5em;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #CC3300;  
+   font-size: 1.5em;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #CC3300;  
+   font-size: 1.5em;
+}
+
+:-ms-input-placeholder {  
+   color: #CC3300;  
+   font-size: 1.5em;
 }
