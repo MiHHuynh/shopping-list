@@ -70,7 +70,7 @@ div .enter-field {
 .purchased-item {
 	font-style: italic;
 	text-transform: uppercase;
-	color: #efefef;
+	color: #cccccc;
 	text-decoration: line-through;
 	float: left;
 	width: 500px;
