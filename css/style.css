@@ -74,6 +74,7 @@ div .enter-field {
 	text-decoration: line-through;
 	float: left;
 	width: 500px;
+	padding-top: 5px;
 }
 .purchased-check {
 	color: green;
