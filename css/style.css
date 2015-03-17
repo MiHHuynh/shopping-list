@@ -72,7 +72,11 @@ div .enter-field {
 	text-transform: uppercase;
 	color: #efefef;
 	text-decoration: line-through;
+	float: left;
+	width: 500px;
 }
 .purchased-check {
 	color: green;
+	float: left;
+	width: 40px;
 }
