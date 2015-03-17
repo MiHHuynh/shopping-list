@@ -67,3 +67,12 @@ div .enter-field {
 .check:hover{
 	color: green;
 }
+.purchased-item {
+	font-style: italic;
+	text-transform: uppercase;
+	color: #efefef;
+	text-decoration: line-through;
+}
+.purchased-check {
+	color: green;
+}
