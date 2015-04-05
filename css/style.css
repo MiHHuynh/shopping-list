@@ -14,7 +14,7 @@ input {
 	border-bottom-width: 1px;
 	border-bottom-color: #efefef;
 }
-.shell {
+.shell, .items {
 	max-width: 600px;
 	height: auto;
 	margin-right: auto;
@@ -50,6 +50,7 @@ div .enter-field {
 .item-row {
 	display: inline-block;
     width: 100%;
+    float: left;
 }
 .item {
 	float: left;
