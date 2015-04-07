@@ -29,4 +29,10 @@ $(document).ready(function(){
 
 	}); //end keydown
 	
+	//click checkmark to change appearance of item
+	//doesn't work on newly added checkmarks?
+	$('.check').click(function(){
+		alert('hi');
+
+	});
 }); //end document ready
