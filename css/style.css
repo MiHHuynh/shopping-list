@@ -46,6 +46,7 @@ div .enter-field {
 }
 .remove-x:hover{
 	color: red;
+	cursor: pointer;
 }
 .item-row {
 	display: inline-block;
@@ -65,8 +66,17 @@ div .enter-field {
 	width: 40px;
 	text-align: right;
 }
+.ischecked {
+	color: green;
+}
+.checkeditem {
+	text-decoration: line-through;
+	color: #cccccc;
+	font-style: italic;
+}
 .check:hover{
 	color: green;
+	cursor: pointer;
 }
 .purchased-item {
 	font-style: italic;

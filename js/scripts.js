@@ -29,18 +29,19 @@ $(document).ready(function(){
 
 	}); //end keydown
 	
-	//click checkmark to change appearance of item
-
-	//how to add in toggle to be able to check and uncheck item?
-	//how to make newly added item lines respond to click function?
-	
-	$('.check').on("click", function(){
-		console.log("Test");
-		$(this).css("color", "green");
-		$(this).prev().children().css("text-decoration", "line-through")
-									 .css("color", "#cccccc")
-									 .css("font-style", "italic");
-
+	//click checkmark to change appearance of item	
+	$('.items').on("click", ".check", function(){
+		$(this).toggleClass("ischecked");
+		$(this).prev().children().toggleClass("checkeditem");
 	});
 	
+
+	//when remove button is clicked, remove whole line and slide up
+	$('.items').on("click", ".remove-x" , function(){
+		$(this).css("color" , "red");
+		$(this).parent().slideUp(500, function(){
+			$(this).remove();
+		});
+	});
+
 }); //end document ready
