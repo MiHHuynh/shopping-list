@@ -30,9 +30,17 @@ $(document).ready(function(){
 	}); //end keydown
 	
 	//click checkmark to change appearance of item
-	//doesn't work on newly added checkmarks?
-	$('.check').click(function(){
-		alert('hi');
+
+	//how to add in toggle to be able to check and uncheck item?
+	//how to make newly added item lines respond to click function?
+	
+	$('.check').on("click", function(){
+		console.log("Test");
+		$(this).css("color", "green");
+		$(this).prev().children().css("text-decoration", "line-through")
+									 .css("color", "#cccccc")
+									 .css("font-style", "italic");
 
 	});
+	
 }); //end document ready
